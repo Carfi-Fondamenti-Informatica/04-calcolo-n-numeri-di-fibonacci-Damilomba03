@@ -14,11 +14,11 @@ int main(){
             cout<<p+s<<endl;
             if(p<s)
             {
-                p=s+p;
+                p+=s;
             }
             else
             {
-               s=p+s;
+               s+=p;
             }
         }
     }
