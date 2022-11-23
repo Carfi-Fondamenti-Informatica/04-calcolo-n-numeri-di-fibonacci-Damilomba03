@@ -9,7 +9,7 @@ int main(){
     {
         cout<<p<<endl<<s<<endl;
         int i=3;
-        while(i++,i<=n)
+        while(i++ <=n)
         {
             cout<<p+s<<endl;
             if(p<s)
@@ -24,7 +24,7 @@ int main(){
     }
     else
     {
-        cout<<"ERRORE";
+        cout<<" errore ";
     }
     return 0;
 }
